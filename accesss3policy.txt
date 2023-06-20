@@ -1,0 +1,12 @@
+{
+  "Statement": [
+    {
+      "Resource": "arn:aws:s3:::s3omeesha/*",
+      "Action": "s3:GetObject",
+      "Principal": "*",
+      "Effect": "Allow",
+      "Sid": "PublicReadGetObject"
+    }
+  ],
+  "Version": "2012-10-17"
+}
